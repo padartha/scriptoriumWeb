@@ -63,3 +63,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* サイトで共有する全ての変数と関数、Mixinsを記述 */
 /* サイトの構造を司るscssを記述 */
 /* トップページのscssを記述 */
+/* line 1, sass/_module/_index.scss */
+body {
+  background: #000; }

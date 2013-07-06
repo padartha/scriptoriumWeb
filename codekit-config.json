@@ -2,16 +2,14 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8300",
   "files" : {
-    "\/javascripts\/site.js" : {
+    "\/config.rb" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/javascripts\/site.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/javascripts\/site-min.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/config.rb",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 32768
     },
     "\/stylesheets\/sass\/_module\/_index.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -69,14 +67,16 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/config.rb" : {
+    "\/javascripts\/site.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/config.rb",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 32768
+      "inputAbbreviatedPath" : "\/javascripts\/site.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/javascripts\/site-min.js",
+      "fileType" : 64
     },
     "\/index.html" : {
       "ignoreWasSetByUser" : 0,
@@ -86,6 +86,17 @@
       "inputAbbreviatedPath" : "\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/javascripts\/site-min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/javascripts\/site-min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/javascripts\/site-min-min.js",
+      "fileType" : 64
     },
     "\/stylesheets\/sass\/_base\/_base.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -178,28 +189,26 @@
       "curly" : 1,
       "trailing" : 1,
       "nonew" : 1,
-      "withstmt" : 0,
+      "es3" : 0,
       "yui" : 0,
       "mootools" : 0,
       "proto" : 0,
       "boss" : 0,
       "funcscope" : 0,
-      "regexdash" : 0,
       "jquery" : 1,
       "esnext" : 0,
       "camelcase" : 0,
-      "es5" : 0,
       "dojo" : 0,
       "strict" : 0,
       "devel" : 0,
-      "onecase" : 0,
       "wsh" : 0,
       "nonstandard" : 0,
       "asi" : 0,
-      "smarttabs" : 0,
+      "moz" : 0,
       "rhino" : 0,
-      "noempty" : 0,
+      "smarttabs" : 0,
       "lastsemic" : 0,
+      "noempty" : 0,
       "eqnull" : 0,
       "eqeqeq" : 1,
       "couch" : 0,
@@ -223,12 +232,11 @@
       "multistr" : 0,
       "shadow" : 0,
       "sub" : 0,
-      "regexp" : 1,
+      "plusplus" : 0,
       "scripturl" : 0,
       "forin" : 0,
       "loopfunc" : 0,
-      "laxbreak" : 0,
-      "plusplus" : 0
+      "laxbreak" : 0
     },
     "jsLintFlags" : {
       "white" : 0,
@@ -253,8 +261,8 @@
       "evil" : 0,
       "node" : 0,
       "rhino" : 0,
-      "devel" : 0,
-      "ass" : 0
+      "ass" : 0,
+      "devel" : 0
     },
     "uglifyFlags" : {
       "no-mangle-functions" : 0,
@@ -263,8 +271,8 @@
       "no-dead-code" : 0,
       "inline-script" : 0,
       "ascii" : 0,
-      "unsafe" : 0,
       "mangle-toplevel" : 0,
+      "unsafe" : 0,
       "no-seqs" : 1,
       "beautify" : 0,
       "lift-vars" : 0,
